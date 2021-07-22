@@ -1,0 +1,20 @@
+%
+(2019/12/12 11:30)
+(FROM MultiOrigin.jww AND INIT.nci)
+G90G54G92X0Y0Z10.
+M8
+M68
+S3000M3
+(Layer="CAM_56" start)
+(R2.000 start)
+G99G81X-12.672Y-9.834Z-20.R5.F60
+X-21.622Y-9.397
+X-18.347Y-17.692
+(End of CircleData)
+G80
+G00Z10.
+M9
+M5
+X0Y0
+M30
+%
